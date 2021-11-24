@@ -1,0 +1,8 @@
+CREATE DATABASE Hospital;
+CREATE TABLE Medicos(
+	email varchar(30),
+	fechanacimiento date,
+	usuario varchar (20),
+	contraseña varchar(15),
+    	PRIMARY KEY(usuario)
+);
